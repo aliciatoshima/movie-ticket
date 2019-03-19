@@ -82,6 +82,7 @@ $(document).ready(function(){
       $("#show-ticket").show();
       $(".ticket-type").text(newTicket.age);
       $(".ticket-time").text(newTicket.time);
+      $(".ticket-time2").text(time + "pm");
       $(".movie-title").text(newTicket.movie);
       $(".price").text(price);
   });
